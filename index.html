@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img class="background">
+    <div class="content">
+        <div id="header">
+            <div class="title">My Current Weather</div>
+            <form>
+                <input type="text" name="zipcode" placeholder="zipcode" id="zipcode">
+                <input type="submit" name="submit" id="submit" value="search">
+                <div class="error">Please enter a valid 5 digit zipcode</div>
+            </form>
+        </div>
+        <div id="weather">
+            <div class="date">
+                <div class="day"></div>
+                <div class="titleDate"></div>
+            </div>
+            <div class="icon"></div>
+            <div class="temperature"></div>
+            <div class="cityName"></div>
+            <div class="info">
+                <div class="feelsLike"></div>
+                <div class="description"></div>
+            </div>
+        </div>
+        <div class="loading"></div>
+    </div>
+    <div class="credit"></div>
+    <script src="main.js"></script>
+</body>
+</html>

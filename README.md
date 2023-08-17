@@ -1,7 +1,7 @@
 <h1 align='center'>Weather App</h1>
 <h3 align='center'>Get the latest weather update for your area.</h3>
 
-![Preview](/src/images/preview.png)
+![Preview](/src/images/preview/preview.png)
 
 ## Weather App submission for [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app)
 
